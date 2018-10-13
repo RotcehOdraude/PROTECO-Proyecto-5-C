@@ -3,7 +3,7 @@ void fimprimirf(char buffer[2204],char nombreDeArchivo[10],char formato[5]){
   FILE *archivo;
   archivo = fopen(nombreDeArchivo, formato);
   if (archivo != NULL) {
-    fprintf(archivo, "\n%s", buffer);
+    fprintf(archivo, "%s\n", buffer);
     fclose(archivo);
   } else {
     printf("El archivo no existe o no se tiene permisos de lectura /escritura.\n");

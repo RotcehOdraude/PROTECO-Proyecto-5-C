@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "registro.h"
+#include "inicioSesion.h"
 int main(int argc, char const *argv[]) {
   int eleccion = 0;
   printf("\t#### CONSOLA PRINCIPAL ####\n\n");
@@ -8,10 +10,12 @@ int main(int argc, char const *argv[]) {
   scanf("%i",&eleccion);
   switch(eleccion){
     case 1:
+      system("clear");
       registrarse();
       break;
     case 2:
-      //iniciarSesion();
+      system("clear");
+      iniciarSesion();
       break;
     default:
       printf("Opcion invalida\n");
