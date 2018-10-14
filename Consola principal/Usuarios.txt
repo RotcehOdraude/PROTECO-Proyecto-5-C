@@ -1,7 +1,2 @@
 admin|1234
-hector|esmuybueno
-Yaxkin|esmasbuenoxD
-sdfasdf|asdfasdf
-someUser|somepass
-carol|123
-otrouser|asdfasdf
+hector|qwer

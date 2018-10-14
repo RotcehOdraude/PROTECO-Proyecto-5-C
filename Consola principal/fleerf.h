@@ -17,5 +17,6 @@ int fleerf(char nombreDeArchivo[30],char formato[5],char** contenido){
     return i-1;
   }else{
     printf("El archivo no existe.\n");
+    return -1;
   }
 }
