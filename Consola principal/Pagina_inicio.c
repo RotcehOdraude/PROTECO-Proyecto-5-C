@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "registro.h"
 #include "inicioSesion.h"
 int main(int argc, char const *argv[]) {
@@ -10,6 +11,15 @@ int main(int argc, char const *argv[]) {
   scanf("%i",&eleccion);
   switch(eleccion){
     case 1:
+    /*char str[] = "Geeks-for-Geeks";
+    // Returns first token
+    char *token = strtok(str, "-");
+    // Keep printing tokens while one of the
+    // delimiters present in str[].
+    while (token != NULL){
+      printf("%s\n", token);
+      token = strtok(NULL, "-");
+    }*/
       system("clear");
       registrarse();
       break;

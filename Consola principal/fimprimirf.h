@@ -1,4 +1,4 @@
-void fimprimirf(char buffer[2204],char nombreDeArchivo[10],char formato[5]){
+void fimprimirf(char buffer[30],char nombreDeArchivo[10],char formato[5]){
   //printf("Hola desde la funcion fprinf\n");
   FILE *archivo;
   archivo = fopen(nombreDeArchivo, formato);
