@@ -9,6 +9,6 @@ void registrarse(){
   scanf("%s",contrasenia);
   strcat(apodo,"|");
   strcat(apodo,contrasenia);
-  fimprimirf(apodo,"Usuarios.txt","a");
+  fimprimirf(apodo,"Usuarios.txt","a+");
 }
 //falta validar que el usuario ingresado no se repita en el archivo Usuarios.txt

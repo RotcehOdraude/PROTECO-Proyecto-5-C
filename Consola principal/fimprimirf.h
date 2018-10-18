@@ -7,5 +7,6 @@ void fimprimirf(char buffer[30],char nombreDeArchivo[10],char formato[5]){
     fclose(archivo);
   } else {
     printf("El archivo no existe o no se tiene permisos de lectura /escritura.\n");
+    
   }
 }
