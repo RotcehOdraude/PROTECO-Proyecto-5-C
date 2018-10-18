@@ -10,7 +10,11 @@ typedef struct usuario{
   int numCompras;
   int cantidad;
 }Usuario;
+<<<<<<< HEAD
 static int ID=0;
+=======
+
+>>>>>>> 596c61b26023ed23c6076541d4fcd3aad33d242c
 
 int main(int argc, char const *argv[]) {
   int eleccion = 0;
