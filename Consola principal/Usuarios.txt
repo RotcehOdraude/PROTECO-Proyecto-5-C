@@ -1,6 +1,2 @@
 admin|1234
 hector|qwer
-<<<<<<< HEAD
-mayito|1234
-=======
->>>>>>> 596c61b26023ed23c6076541d4fcd3aad33d242c

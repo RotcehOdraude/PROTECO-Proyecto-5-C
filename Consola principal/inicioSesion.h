@@ -11,12 +11,6 @@ void iniciarSesion(){
     USUARIOS[i] = malloc(1);
   }
   int numUsuarios = fleerf("Usuarios.txt","r",USUARIOS);
-<<<<<<< HEAD
-=======
-  /*for (size_t i = 0; i < numUsuarios; i++) {
-    printf("%s\n", USUARIOS[i]);
-  }*/
->>>>>>> 596c61b26023ed23c6076541d4fcd3aad33d242c
   if(numUsuarios != -1){
     printf("Por favor escribe el nombre de tu usuario: ");
     scanf("%s",usuario);
@@ -33,10 +27,7 @@ void iniciarSesion(){
             break;
           }else if(strcmp(CONTRASENIA,contrasenia) == 0){
             printf("Entraste a la consola de usuario \n");
-<<<<<<< HEAD
             //usuario();
-=======
->>>>>>> 596c61b26023ed23c6076541d4fcd3aad33d242c
             break;
           }
         }

@@ -1,4 +1,3 @@
-
 int fleerf(char nombreDeArchivo[30],char formato[5],char** contenido){
   //printf("Hola desde la funcion fleerf\n" );
   FILE *archivo;
