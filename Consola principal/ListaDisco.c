@@ -32,7 +32,7 @@ void insertBack(Lista* lista, Disco dato){
 }
 void insertAt(Lista* lista, int pos, Disco dato){
   if(pos > lista->num_nodos){
-
+    //return NULL;
   }else if(pos == 0){
     insertFront(lista,dato);
   }else if(pos == lista->num_nodos-1){

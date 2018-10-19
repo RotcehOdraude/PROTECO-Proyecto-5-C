@@ -67,7 +67,6 @@ void admin(){
         //iniciarSesion();
         break;
       case 12:
-
         salir = 1;
         break;
       default:

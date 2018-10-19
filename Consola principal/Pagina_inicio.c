@@ -13,21 +13,28 @@ typedef struct usuario{
 
 int main(int argc, char const *argv[]) {
   int eleccion = 0;
-  printf("\t#### CONSOLA PRINCIPAL ####\n\n");
-  printf("1) Registrarse\n");
-  printf("2) Iniciar sesión\n\t:");
-  scanf("%i",&eleccion);
-  switch(eleccion){
-    case 1:
-      system("clear");
-      registrarse();
-      break;
-    case 2:
-      system("clear");
-      iniciarSesion();
-      break;
-    default:
-      printf("Opcion invalida\n");
+  while (1) {
+    printf("\t#### CONSOLA PRINCIPAL ####\n\n");
+    printf("1) Registrarse\n");
+    printf("2) Iniciar sesión\n");
+    printf("3) Salir.\n\t:");
+    scanf("%i",&eleccion);
+    switch(eleccion){
+      case 1:
+        system("clear");
+        registrarse();
+        break;
+      case 2:
+        system("clear");
+        iniciarSesion();
+        break;
+      case 3:
+        return 0;
+      default:
+        printf("Opcion invalida\n");
+
+        break;
+    }
   }
   return 0;
 }

@@ -6,7 +6,7 @@ typedef struct disco{
 }Disco;
 typedef struct Nodo{
     Disco dato;
-    struct Nodo* next;
+    struct Nodo* siguiente;
 }Nodo;
 
 Nodo* crearNodo();
